@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get remove apt-listchanges
 apt-get update && sudo apt-get upgrade -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y
 apt-get install git mongodb python python-dev python-pip python-m2crypto libmagic1 swig libvirt-dev upx-ucl libssl-dev wget unzip p7zip-full geoip-database libgeoip-dev libjpeg-dev mono-utils yara python-yara ssdeep libfuzzy-dev exiftool curl openjdk-8-jre-headless
